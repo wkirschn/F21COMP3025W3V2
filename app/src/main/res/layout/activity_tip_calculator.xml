@@ -39,10 +39,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_span="2"
-                android:inputType="numberDecimal"
-                tools:ignore="SpeakableTextPresentCheck"
                 android:hint="Meal Cost"
-                />
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
         </TableRow>
 
         <TableRow
@@ -61,6 +61,8 @@
                 android:id="@+id/tipPercentSeekBar"
                 android:layout_width="@dimen/seekBarWidth"
                 android:layout_height="wrap_content"
+                android:max="25"
+                android:progress="15"
                 />
 
             <TextView
@@ -86,7 +88,7 @@
                 android:id="@+id/tipTotalTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/_15_00"
+                android:hint="@string/_15_00"
                 android:textAlignment="textEnd"/>
         </TableRow>
 
@@ -108,7 +110,7 @@
                 android:id="@+id/amountWithTipTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/_150_00"
+                android:hint="@string/_150_00"
                 android:textAlignment="textEnd"
                 android:layout_span="2"/>
         </TableRow>
