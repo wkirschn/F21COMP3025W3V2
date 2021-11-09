@@ -9,4 +9,5 @@
     <string name="_15_00">$15.00</string>
     <string name="tip_total">Tip Total</string>
     <string name="_150_00">$150.00</string>
+    <string name="tipPercent">15%</string>
 </resources>
